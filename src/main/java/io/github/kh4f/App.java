@@ -20,7 +20,7 @@ public class App extends JFrame {
         this.setContentPane(panelMain);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        this.setLocation((screenSize.width - 500) / 2, (screenSize.height - 500) / 2);
+        this.setLocation((screenSize.width - 690) / 2, (screenSize.height - 425) / 2);
         this.pack();
 
         picturesList.addLast(new ImageIcon(Objects.requireNonNull(getClass().getResource("/1.png"))));
