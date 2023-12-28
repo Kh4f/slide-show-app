@@ -41,7 +41,6 @@ public class GUI extends JFrame {
                 System.err.println(ex.getMessage());
             }
         });
-
     }
 
     public void movePictures() {
